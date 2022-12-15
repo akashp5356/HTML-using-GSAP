@@ -1,0 +1,83 @@
+body{
+    font-family: 'Unbounded', cursive;
+}
+
+/* *****************Navbar**************** */
+
+nav{
+    background: #fff!important;
+    box-shadow: 1px 1px 2px #4444;
+}
+
+nav .navbar-brand{
+color:#39ff14!important;
+}
+
+.navbar-nav .nav-link{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* *****************Carousel**************** */
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/**********************About Us **************************/
+.section-heading{
+    color: var(--bs-orange);
+}
+
+.section-about{
+    background-color: rgba(3, 3, 3, 0.801);
+    /* opacity: 100; */
+    color: #fff!important;
+}
+/**********************Our Presence**************************/
+.container .box{
+    padding: 10px 10px;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video{
+    align-items: center;
+}
+
+.contact-us{
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-login{
+    height: 70%;
+    width: 70%;
+    position: absolute;
+  top: 50%;
+  transform: translate(25%, -50%);
+}
+
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+/****************social icons*****************/
+
+@media(max-width:768px ){
+.header-social-icon{
+display: none;
+}
+}
